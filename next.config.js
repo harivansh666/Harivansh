@@ -26,31 +26,7 @@ module.exports = {
         destination: "/",
         permanent: true,
       },
-      {
-        source: "/demos",
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/demos/:path*",
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/friday",
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/snippets",
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/snippets/:path*",
-        destination: "/",
-        permanent: true,
-      },
+
       {
         source: "/resources",
         destination: "/",
@@ -61,26 +37,7 @@ module.exports = {
         destination: "/",
         permanent: true,
       },
-      {
-        source: "/freelance",
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/design-inspiration",
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/projects",
-        destination: "/",
-        permanent: true,
-      },
-      {
-        source: "/freecodecamp",
-        destination: "/",
-        permanent: true,
-      },
+
       {
         source: "/api/:path*",
         destination: "/",

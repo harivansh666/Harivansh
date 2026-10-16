@@ -41,7 +41,10 @@ export async function getFileBySlug(type, slug) {
 }
 
 export async function getAllFilesFrontMatter(type) {
-  const files = fs.readdirSync(path.join(root, "data", type));
+  const directory = path.join(root, "data", type);
+  if (!fs.existsSync(directory)) return [];
+
+  const files = fs.readdirSync(directory);
 
   return files.reduce((allPosts, postSlug) => {
     const source = fs.readFileSync(

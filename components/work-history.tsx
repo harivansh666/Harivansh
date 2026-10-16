@@ -41,7 +41,7 @@ export const WorkHistory = () => {
   return (
     <section aria-label="Current work">
       <Subheading>Where I have worked</Subheading>
-      <div className="mt-8 flex flex-col gap-6">
+      <div className="mt-8 flex flex-col gap-8">
         {projects.map((project) => (
           <div
             key={project.name}

@@ -175,7 +175,7 @@ export const WhatIBuildWith = () => {
   return (
     <section aria-labelledby="what-i-build-with-heading">
       <Subheading>What I build with</Subheading>
-      <div className="mt-4 border-y border-neutral-200">
+      <div className="mt-8 border-neutral-200">
         {categories.map((category) => (
           <div
             key={category.name}

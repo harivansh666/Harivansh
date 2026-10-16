@@ -38,7 +38,7 @@ export const SocialLinks = () => {
   return (
     <nav
       aria-label="Social links"
-      className="mt-4 flex flex-wrap justify-center gap-3 pb-10"
+      className="mt-4 flex flex-wrap justify-center gap-3 "
     >
       {links.map((link) => (
         <a
@@ -46,7 +46,7 @@ export const SocialLinks = () => {
           href={link.href}
           target={link.name === "Email" ? undefined : "_blank"}
           rel={link.name === "Email" ? undefined : "noreferrer"}
-          className="inline-flex h-10 items-center gap-2.5 rounded-full border border-neutral-200 px-4 text-[16px] leading-5 font-normal text-neutral-900 transition-colors hover:border-neutral-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-500"
+          className="inline-flex h-9 items-center gap-2.5 rounded-full border border-neutral-200 px-4 text-[16px] leading-5 font-normal text-neutral-900 transition-colors hover:border-neutral-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-500"
         >
           {link.icon}
           <span>{link.name}</span>

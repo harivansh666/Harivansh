@@ -12,6 +12,8 @@ html {
 }
 
 :root {
+  --font-inter: Inter, Arial, sans-serif;
+  --font-schibsted-grotesk: "Schibsted Grotesk", Arial, sans-serif;
   --primary-font: var(--font-custom-geist);
   --font-sans: var(--font-custom-geist);
   --primary: oklch(0.205 0 0);

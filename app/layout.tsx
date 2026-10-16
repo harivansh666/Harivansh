@@ -4,7 +4,6 @@ import "./globals.css";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Script from "next/script";
-import { Inter, Schibsted_Grotesk } from "next/font/google";
 import { GeistSans } from "geist/font/sans";
 import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/navbar";
@@ -47,26 +46,12 @@ export const metadata: Metadata = {
   },
 };
 
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-inter",
-});
-
-const schibstedGrotesk = Schibsted_Grotesk({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-schibsted-grotesk",
-});
-
 export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
       className={cn(
         customFont.variable,
-        inter.variable,
-        schibstedGrotesk.variable,
         GeistSans.variable,
         "font-sans antialiased",
       )}

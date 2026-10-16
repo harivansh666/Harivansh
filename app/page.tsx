@@ -26,9 +26,9 @@ export default async function Home() {
       <DottedSeparator className="my-10" />
       <WorkHistory />
       <DottedSeparator className="my-10" />
-      <WorkWithMe />
-      <DottedSeparator className="my-10" />
       <WhatIBuildWith />
+      <DottedSeparator className="my-10" />
+      <WorkWithMe />
       <DottedSeparator className="my-10" />
       <SocialLinks />
       <DottedSeparator className="my-10" />

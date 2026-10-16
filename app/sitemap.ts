@@ -22,6 +22,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       url: `${SITE_URL}/inspiration`,
     },
     {
+      url: `${SITE_URL}/projects`,
+    },
+    {
+      url: `${SITE_URL}/learning`,
+    },
+    {
       url: `${SITE_URL}/sponsor`,
     },
   ];
@@ -31,5 +37,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...(post.publishedAt ? { lastModified: post.publishedAt } : {}),
   }));
 
-  return staticRoutes;
+  return [...staticRoutes, ...blogRoutes];
 }
