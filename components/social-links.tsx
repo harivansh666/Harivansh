@@ -22,11 +22,7 @@ const links = [
     href: "https://www.linkedin.com/in/harivansh666/",
     icon: <IconBrandLinkedin className="size-4" />,
   },
-  {
-    name: "Telegram",
-    href: "https://t.me/harivansh666",
-    icon: <IconBrandTelegram className="size-4" />,
-  },
+
   {
     name: "Email",
     href: "mailto:vanshh399@gmail.com",
@@ -38,7 +34,7 @@ export const SocialLinks = () => {
   return (
     <nav
       aria-label="Social links"
-      className="mt-4 flex flex-wrap justify-center gap-3 "
+      className="mt-4 flex flex-wrap justify-center gap-3"
     >
       {links.map((link) => (
         <a
