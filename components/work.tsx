@@ -39,7 +39,7 @@ const workItems = [
     boxClassName: "",
   },
   {
-    href: "https://youtube.com/@manuarora",
+    href: "https://www.youtube.com/@harivansh666",
     title: "YouTube",
     description: "I talk about design engineering and SaaS.",
     icon: (
